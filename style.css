@@ -1,134 +1,146 @@
 body {
-    margin: 0 auto;
-    max-width: 720px;
-    padding: 5px 5px;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #F2EFE9;
+  margin: 0 auto;
+  max-width: 720px;
+  padding: 5px 5px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F2EFE9;
 }
 
 .wrapper {
-    padding: 12px 12px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 32px -5px rgba(0, 0, 0, 0.46);
-    background-color: rgb(255, 255, 255);
+  padding: 12px 12px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 32px -5px rgba(0, 0, 0, 0.46);
+  background-color: rgb(255, 255, 255);
 }
 
 main {
-    padding: 10px 12px;
-    box-shadow: 0px 0px 32px -5px rgba(0, 0, 0, 0.46);
-    border-radius: 10px;
+  padding: 10px 12px;
+  box-shadow: 0px 0px 32px -5px rgba(0, 0, 0, 0.46);
+  border-radius: 10px;
 }
 
 h1 {
-    left: 5%;
-    position: relative;
-    display: inline-block;
+  left: 5%;
+  position: relative;
+  display: inline-block;
 }
 
 h2 {
-    left: 6%;
-    position: relative;
+  left: 6%;
+  position: relative;
 }
 
 .date-of-birth {
-    margin: 0;
-    left: 4%;
-    position: relative;
-    top: -20px;
+  margin: 0;
+  left: 4%;
+  position: relative;
+  top: -20px;
 }
 
 img {
-    margin-top: -45px;
-    margin-right: 2%;
-    float: right;
-    border-radius: 10px;
-    box-shadow: 0px 0px 32px -5px rgba(0, 0, 0, 0.46);
+  margin-top: -90px;
+  margin-right: 2%;
+  float: right;
+  border-radius: 10px;
+  box-shadow: 0px 0px 32px -5px rgba(0, 0, 0, 0.46);
 }
 
 ul {
-    display: inline-block;
+  display: inline-block;
 }
 
 .contacts {
-    left: 5%;
-    position: relative;
+  left: 5%;
+  position: relative;
 }
 
 .phone-viber {
-    list-style-image: url(images/iconfinder_phone-viber.png);
+  list-style-image: url(images/iconfinder_phone-viber.png);
 }
 
 .gmail {
-    list-style-image: url(images/iconfinder_gmail.png);
+  list-style-image: url(images/iconfinder_gmail.png);
 }
 
 .linkedin {
-    list-style-image: url(images/iconfinder_linkedin.png);
+  list-style-image: url(images/iconfinder_linkedin.png);
 }
 
 .facebook {
-    list-style-image: url(images/iconfinder_facebook.png);
+  list-style-image: url(images/iconfinder_facebook.png);
 }
 
 .telegram {
-    list-style-image: url(images/iconfinder_telegram.png);
+  list-style-image: url(images/iconfinder_telegram.png);
 }
 
 .skype {
-    list-style-image: url(images/iconfinder_skype.png);
+  list-style-image: url(images/iconfinder_skype.png);
 }
 
 .discord {
-    list-style-image: url(images/iconfinder_discord.png);
+  list-style-image: url(images/iconfinder_discord.png);
 }
 
 .skills-list {
-    margin: 0;
-    padding-left: 42px;
+  margin: 0;
+  padding-left: 42px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 dt {
-    padding-left: 24px;
+  padding-left: 24px;
 }
 
 p {
-    padding-left: 24px;
+  padding-left: 24px;
 }
 
 h4 {
-    padding-left: 35px;
+  padding-left: 35px;
+}
+
+.summary-heading {
+  margin-bottom: 0;
+}
+
+.summary-body {
+  margin-top: 0;
 }
 
 @media only screen and (max-width: 460px) {
-    header {
-        display: flex;
-        flex-direction: column;
-    }
-    img {
-        margin-top: 0px;
-        margin-left: 30%;
-        float: none;
-    }
-    h1 {
-        left: 0;
-        text-align: center;
-    }
-    .date-of-birth {
-        left: 0;
-        margin-top: 0;
-        font-size: 16px;
-        text-align: center;
-        top: -20px;
-    }
-    .contacts {
-        text-align: center;
-    }
-    h4 {
-        padding-left: 0;
-        text-align: center;
-    }
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  img {
+    margin-top: 0px;
+    margin-left: 30%;
+    float: none;
+  }
+  h1 {
+    left: 0;
+    text-align: center;
+  }
+  h2 {
+    margin-right: 20px;
+  }
+  .date-of-birth {
+    left: 0;
+    padding-left: 0;
+    margin-top: 0;
+    font-size: 16px;
+    text-align: center;
+    top: -20px;
+  }
+  .contacts {
+    text-align: center;
+  }
+  h4 {
+    padding-left: 0;
+    text-align: center;
+  }
 }
