@@ -103,10 +103,6 @@ h4 {
   padding-left: 35px;
 }
 
-.summary-heading {
-  margin-bottom: 0;
-}
-
 .summary-body {
   margin-top: 0;
 }
@@ -132,7 +128,7 @@ h4 {
     left: 0;
     padding-left: 0;
     margin-top: 0;
-    font-size: 16px;
+    font-size: 15px; 
     text-align: center;
     top: -20px;
   }
